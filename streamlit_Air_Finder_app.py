@@ -39,7 +39,7 @@ with st.container():
             st.write(' ')
     with left1_column:
         st.image(img, caption="", width = 110)
-        st.image("https://up6.cc/2024/02/170890109939031.png")
+        st.image("https://up6.cc/2024/02/170890433843051.png")
     with right_column:
         st.write(' ')
             
