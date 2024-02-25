@@ -9,9 +9,7 @@ ydl_opts = {}
 def transcribe_from_link(link, categories: bool):
     _id = link.strip()
 
-    def get_vid(_id):
-        with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            return ydl.extract_info(_id)
+
 
 def main():
     # Custom CSS for RTL layout
