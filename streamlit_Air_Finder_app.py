@@ -52,5 +52,3 @@ def transcribe_from_link(link, categories: bool):
             
 
 
-if __name__ == "__main__":
-    main()
