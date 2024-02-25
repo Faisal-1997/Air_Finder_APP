@@ -1,9 +1,7 @@
 import streamlit as st
-import youtube_dl
+
 from PIL import Image
 
-# Define ydl_opts if needed
-ydl_opts = {}
 
 @st.cache
 def transcribe_from_link(link, categories: bool):
