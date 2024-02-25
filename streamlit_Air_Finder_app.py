@@ -9,27 +9,7 @@ def transcribe_from_link(link, categories: bool):
 
 
 
-def main():
-    # Custom CSS for RTL layout
-    rtl_style = """
-        <style>            
-            body {
-                direction: rtl;
-                text-align: center;
-                font-family: "Arial", sans-serif;
-            }
-            .stApp {
-                background-image: url('https://up6.cc/2024/02/170888322938741.jpg'); /* Add your image URL */
-                background-attachment: fixed;
-                background-size: cover;
-                background-position: center;
-                direction: rtl;
-                text-align: center;
-            }
-        </style>
-    """
 
-    st.markdown(rtl_style, unsafe_allow_html=True)
     
     img2 = "https://up6.cc/2024/02/170888210390851.png"
     st.image(img2)
